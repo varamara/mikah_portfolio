@@ -1,14 +1,16 @@
+import './navbar.scss';
+
 const Navbar = () => {
-    return (  
-        <nav className="navbar">
-            <h1>Portfoio</h1>
+    return ( 
+        <div className="navbar">
+            <h1>Navbar</h1>
             <div className="links">
                 <a href="/">Home</a>
                 <a href="/about">about</a>
                 <a href="/projects">projects</a>
             </div>
-        </nav>
-    );
+        </div>
+     );
 }
  
 export default Navbar;
