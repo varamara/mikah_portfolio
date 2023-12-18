@@ -1,3 +1,32 @@
-.links {
-    border: 1px solid purple;
+* {
+    --color-1: #d9dbd5;
+    --color-2: #f98d52;
+    --color-3: #90c9cb;
+    --color-4: #1c98a1;
+    --color-5: #d54d3e;
+}
+
+.navbar {
+    background-color: var(--color-4);
+    height: 80px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    .links {
+        margin-right: 50px;
+        a {
+            text-decoration: none;
+            color: var(--color-2);
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin: 10px;
+
+
+            &:hover {
+                color: var(--color-1);
+
+            }
+        }
+    }
 }

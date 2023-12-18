@@ -1,6 +1,6 @@
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
-import Home from './views/home/Home';
+import Home from './pages/home/Home';
 
 function App() {
 

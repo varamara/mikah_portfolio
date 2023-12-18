@@ -1,9 +1,10 @@
 import './home.scss';
+import Front from '../../components/front/Front';
 
 const Home = () => {
     return ( 
         <div className="home">
-            <h2>HomePage</h2>
+            <Front />
         </div>
      );
 }
